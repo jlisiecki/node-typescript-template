@@ -1,0 +1,28 @@
+{
+    "name": "node-typescript-template",
+    "version": "1.0.0",
+    "description": "",
+    "main": "dist/main.js",
+    "scripts": {
+        "dev": "vite-node src/main.ts -w",
+        "build": "webpack",
+        "start": "node ."
+    },
+    "keywords": [
+        "node",
+        "typescript",
+        "template"
+    ],
+    "author": "Jakub Lisiecki",
+    "license": "MIT",
+    "devDependencies": {
+        "@tsconfig/node16": "*",
+        "@types/node": "*",
+        "ts-loader": "*",
+        "typescript": "*",
+        "vite-node": "*",
+        "webpack": "*",
+        "webpack-cli": "*",
+        "webpack-node-externals": "*"
+    }
+}
